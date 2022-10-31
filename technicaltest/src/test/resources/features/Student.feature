@@ -1,13 +1,5 @@
 Feature: Get student information from the system
 
-  Scenario Outline: Sanity Test
-    Given I am an authorised user
-    Then I reach the endpoint with <param> for class
-
-    Examples: 
-      | param |
-      | "FY"  |
-
   @Smoke
   Scenario Outline: Fetch all students
     Given I can hit the url with <param> for class
