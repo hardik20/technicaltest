@@ -1,6 +1,0 @@
-framework\Runner.class
-testData\DataDriven.class
-framework\WebDriverClass.class
-stepDefinition\HerokuLogin.class
-testData\ExcelUtil.class
-stepDefinition\GetStudent.class
