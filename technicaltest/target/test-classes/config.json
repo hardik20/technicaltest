@@ -1,0 +1,5 @@
+{
+    "LOCAL": {
+        "studentmgmtbaseURI": "http://localhost:9080/studentmgmt/"
+    }
+}
