@@ -1,4 +1,4 @@
-Feature: Login test
+Feature: Functional Login web test automation
 
   @Smoke
   Scenario: Login to Heroku app

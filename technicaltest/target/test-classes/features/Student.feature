@@ -1,4 +1,4 @@
-Feature: Get student information from the system
+Feature: API test to get student information from the system
 
   @Smoke
   Scenario Outline: Fetch all students
