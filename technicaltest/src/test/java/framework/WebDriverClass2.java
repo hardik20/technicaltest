@@ -1,20 +1,22 @@
-/*package framework;
+package framework;
 
 import java.time.Duration;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class WebDriverClass {
+public class WebDriverClass2 {
 
 	public static ChromeDriver driver = null;
 
-	private WebDriverClass() {
+	public WebDriverClass2() {
+		driver = new ChromeDriver();
 	}
 
-	public static void initialise() {
+	public static WebDriver getdriver() {
 		// Singleton Pattern
 		if (driver == null) {
 			System.setProperty("webdriver.chrome.driver", "\\src\\test\\resources\\drivers\\chromedriver.exe");
@@ -31,8 +33,11 @@ public class WebDriverClass {
 			// PageLoad TimeOuts
 			driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
 			// Launching the URL
-			// driver.navigate().to("http://the-internet.herokuapp.com/");
+			driver.navigate().to("http://the-internet.herokuapp.com/");
+			System.out.println("Webdriver class initialised");
+
 		}
+		return driver;
 	}
 
 	public static void quit() {
@@ -47,4 +52,4 @@ public class WebDriverClass {
 		driver = null;
 	}
 
-}*/
+}

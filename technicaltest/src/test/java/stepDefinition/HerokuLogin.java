@@ -1,4 +1,4 @@
-package stepDefinition;
+/*package stepDefinition;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
@@ -53,4 +53,4 @@ public class HerokuLogin {
 		WebDriverClass.quit();
 	};
 
-}
+}*/
