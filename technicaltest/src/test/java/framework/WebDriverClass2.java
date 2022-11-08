@@ -13,19 +13,19 @@ public class WebDriverClass2 {
 	private static ChromeDriver driver = null;
 
 	private WebDriverClass2() {
-		//driver = new ChromeDriver();
+		// driver = new ChromeDriver();
 	}
 
 	public static WebDriver getdriver() {
 		// Singleton Pattern
 		if (driver == null) {
+			// ChromeOptions option = new ChromeOptions();
 			System.setProperty("webdriver.chrome.driver", "\\src\\test\\resources\\drivers\\chromedriver.exe");
-			ChromeOptions option = new ChromeOptions();
-			option.addArguments("--start-maximised");
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
+			// option.addArguments("--start-maximised");
 			// Maximize the screen
-			// driver.manage().window().maximize();
+			driver.manage().window().maximize();
 			// Delete all the cookies
 			driver.manage().deleteAllCookies();
 			// Implicit TimeOuts

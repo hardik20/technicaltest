@@ -1,16 +1,9 @@
 package stepDefinition;
 
 import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.By.ByXPath;
-import org.openqa.selenium.chrome.ChromeDriver;
-
 import framework.WebDriverClass2;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import io.cucumber.java.AfterAll;
-import io.cucumber.java.BeforeAll;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
