@@ -7,7 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import framework.WebDriverClass2;
 
-public class HerokuPage extends WebDriverClass2 {
+//public class HerokuPage extends WebDriverClass2 {
+public class HerokuPage  {
 
 	private static WebElement element = null;
 

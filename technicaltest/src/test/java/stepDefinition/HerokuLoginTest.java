@@ -17,7 +17,6 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.FormAuthenticationPage;
 import pages.HerokuPage;
-import pages.FormAuthenticationPage;
 
 public class HerokuLoginTest {
 	

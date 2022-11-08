@@ -10,10 +10,10 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class WebDriverClass2 {
 
-	public static ChromeDriver driver = null;
+	private static ChromeDriver driver = null;
 
-	public WebDriverClass2() {
-		driver = new ChromeDriver();
+	private WebDriverClass2() {
+		//driver = new ChromeDriver();
 	}
 
 	public static WebDriver getdriver() {
